@@ -1,0 +1,13 @@
+[
+  { "name": "Java", "image": "/src/assets/java.png", "description": "Experienced with OOP, Spring Boot, REST." },
+  { "name": "Python", "image": "/src/assets/python.png", "description": "Flask, scripting, automation skills." },
+  { "name": "HTML", "image": "/src/assets/html.png", "description": "Semantic, SEO-friendly markup." },
+  { "name": "CSS", "image": "/src/assets/css.png", "description": "Responsive, Flexbox, Grid layouts." },
+  { "name": "Tailwind CSS", "image": "/src/assets/tailwind.png", "description": "Utility-first framework for rapid design." },
+  { "name": "JavaScript", "image": "/src/assets/javascript.png", "description": "ES6+, async, DOM manipulation." },
+  { "name": "React", "image": "/src/assets/react.png", "description": "Hooks, state management, SPA architecture." },
+  { "name": "Express.js", "image": "/src/assets/express.png", "description": "Node.js routing and middleware." },
+  { "name": "Node.js", "image": "/src/assets/node.png", "description": "Server-side JS, event-driven." },
+  { "name": "MongoDB", "image": "/src/assets/mongodb.webp", "description": "NoSQL document database." },
+  { "name": "MySQL", "image": "/src/assets/mysql.png", "description": "Relational SQL databases." }
+]

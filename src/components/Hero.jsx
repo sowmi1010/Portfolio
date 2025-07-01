@@ -1,6 +1,8 @@
 import { Typewriter } from "react-simple-typewriter";
 import { Linkedin, Github, Mail } from "lucide-react";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 export default function Hero() {
   return (
     <section
@@ -18,7 +20,7 @@ export default function Hero() {
           Passionate Web Creator
         </p>
         <img
-          src="/profile.jpg"
+          src={`${baseUrl}profile.jpg`}
           alt="Sowmiya"
           className="
             w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto mb-4

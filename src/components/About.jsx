@@ -1,5 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 export default function About() {
   return (
     <section
@@ -20,7 +22,7 @@ export default function About() {
       {/* left side image */}
       <div className="z-10">
         <img
-          src="/profile.jpg"
+          src={`${baseUrl}profile.jpg`}
           alt="Sowmiya"
           className="
             w-40 sm:w-52 md:w-60 lg:w-72 xl:w-80

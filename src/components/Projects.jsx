@@ -1,10 +1,11 @@
 import { useState } from "react";
-import projects from "../data/projects.json";
+import projects from "../data/projects.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { X } from "lucide-react";
+
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);

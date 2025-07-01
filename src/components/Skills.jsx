@@ -1,4 +1,4 @@
-import skills from "../data/skills.json";
+import skills from "../data/skills.js";
 
 export default function Skills() {
   return (
@@ -33,7 +33,7 @@ export default function Skills() {
               cursor-pointer
             "
             data-aos="fade-up"
-            data-aos-delay={index * 100}  // stagger nicely
+            data-aos-delay={index * 100}
           >
             <div className="flip-card-inner">
               {/* FRONT */}
@@ -41,7 +41,7 @@ export default function Skills() {
                 className="
                   flip-card-front
                   p-4 flex flex-col items-center justify-center
-                  dark:bg-gray-800 dark:text-yellow-100 rounded-xl
+                  dark:bg-gray-700 dark:text-yellow-100 rounded-xl
                 "
               >
                 <img

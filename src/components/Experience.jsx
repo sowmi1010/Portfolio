@@ -1,5 +1,7 @@
 import experienceData from "../data/experience.json";
 import { Code, Database, GraduationCap, Users, Download } from "lucide-react";
+const baseUrl = import.meta.env.BASE_URL;
+
 
 export default function Experience() {
   const iconMap = {
@@ -138,7 +140,7 @@ export default function Experience() {
         {/* resume button */}
         <div className="flex justify-center mt-12" data-aos="fade-up">
           <a
-            href="/resume.pdf"
+            href={`${baseUrl}resume.pdf`}
             download
             className="
               inline-flex items-center gap-2
